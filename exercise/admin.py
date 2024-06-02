@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from core.models import Profile, Exercise, Workout, WorkoutExercise, WorkoutExerciseDetail
+from .models import Exercise, Workout, WorkoutExercise, WorkoutExerciseDetail
 
 
 class ExerciseAdmin(admin.ModelAdmin):

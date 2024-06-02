@@ -2,8 +2,7 @@ from django.contrib import admin
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
 
-from exercise.urls import exercise_router_router
-from user.views import UserViewSet
+from exercise.urls import exercise_router
 
 router = DefaultRouter()
 router.registry.extend(exercise_router.registry)

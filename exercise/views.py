@@ -28,7 +28,7 @@ class ExerciseViewSet(viewsets.ModelViewSet):
 
 
 class WorkoutViewSet(viewsets.ModelViewSet):
-    permission_classes = (IsAuthenticated, IsOwner,)
+    permission_classes = (IsAuthenticated, IsOwnerOrReadOnly,)
     http_method_names = ['get', 'post', 'delete']
     serializer_class = WorkoutSerializer
     queryset = Workout.objects.all().order_by('-created')

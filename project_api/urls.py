@@ -12,4 +12,5 @@ urlpatterns = [
     path('api-auth/', include('rest_framework.urls')),
     path("api/", include((router.urls, 'api'))),
     path('', include('profiles.urls')),
+    path('', include('progress.urls')),
 ]

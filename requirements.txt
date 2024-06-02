@@ -1,10 +1,16 @@
 asgiref==3.8.1
 cloudinary==1.40.0
+dj-database-url==0.5.0
 Django==5.0.6
+django-allauth==0.63.3
 django-cloudinary-storage==0.3.0
 django-model-utils==4.5.1
+django-rest-auth==0.9.5
 django-utils==0.0.2
 djangorestframework==3.15.1
+djangorestframework-simplejwt==5.3.1
 pillow==10.3.0
+psycopg2==2.9.9
+PyJWT==2.8.0
 pytz==2021.1
 sqlparse==0.5.0

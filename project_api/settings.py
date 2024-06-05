@@ -50,7 +50,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEV' in os.environ
 
-ALLOWED_HOSTS = ['localhost', '8000-sacarr98-drfapiportfoli-40vhjkqr2wp.ws-eu114.gitpod.io', 'https://fitness-api-0f45fd642eff.herokuapp.com']
+ALLOWED_HOSTS = ['localhost', '8000-sacarr98-drfapiportfoli-40vhjkqr2wp.ws-eu114.gitpod.io', 'fitness-api-0f45fd642eff.herokuapp.com']
 
 CSRF_TRUSTED_ORIGINS = ['https://8000-sacarr98-drfapiportfoli-40vhjkqr2wp.ws-eu114.gitpod.io', 'https://fitness-api-0f45fd642eff.herokuapp.com']
 

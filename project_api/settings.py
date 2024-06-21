@@ -82,6 +82,7 @@ INSTALLED_APPS = [
     'exercise',
     'timestamp',
     'progress',
+    'posts',
 ]
 
 SITE_ID = 1

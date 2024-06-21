@@ -83,6 +83,7 @@ INSTALLED_APPS = [
     'timestamp',
     'progress',
     'posts',
+    'likes',
 ]
 
 SITE_ID = 1

@@ -19,4 +19,5 @@ urlpatterns = [
     path("api/", include((router.urls, 'api'))),
     path('', include('profiles.urls')),
     path('', include('progress.urls')),
+    path('', include('posts.urls')),
 ]
